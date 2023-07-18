@@ -10,7 +10,7 @@ function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  const baseUrl = "https://api-register-users.vercel.app";
+  const baseUrl = "https://api-register-users-puce.vercel.app";
 
   const getUsers = async () => {
     const { data } = await axios.get(`${baseUrl}/users`);
